@@ -1,0 +1,5 @@
+{
+  "name": "Simple Password Strength Checker",
+  "description": "A lightweight cybersecurity tool to evaluate password strength using simple security rules.",
+  "requestFramePermissions": []
+}
