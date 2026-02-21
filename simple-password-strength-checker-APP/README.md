@@ -1,28 +1,28 @@
-# Simple Password Strength Checker
+# Simple Password Strength Checker 🔐
 
-## Purpose
-A lightweight, educational tool designed to help users understand basic password security principles. It evaluates passwords against common security rules and provides actionable feedback.
+## Overview
+Simple Password Strength Checker is a lightweight Python application that analyzes the strength of passwords using basic security rules. It is designed for educational purposes and to demonstrate fundamental cybersecurity practices in password security.
 
-## Security Rules Used
-The tool evaluates passwords based on five fundamental criteria:
-1. **Length**: Is the password at least 8 characters long?
-2. **Uppercase**: Does it contain at least one capital letter?
-3. **Lowercase**: Does it contain at least one small letter?
-4. **Numbers**: Does it include at least one digit (0-9)?
-5. **Special Characters**: Does it use symbols (e.g., !, @, #, $)?
+The application evaluates:
+- Password length  
+- Uppercase and lowercase letters  
+- Numbers  
+- Special characters  
 
-## Classification Logic
-- **Weak**: 0-2 rules passed.
-- **Medium**: 3-4 rules passed.
-- **Strong**: All 5 rules passed.
+It provides a clear classification: **Weak**, **Medium**, or **Strong**, along with improvement suggestions.
 
-## Usage
-### Web Version
-Simply type your password into the terminal interface in the browser preview.
+---
 
-### Python Version
-Run the script using Python 3:
-```bash
-python3 main.py
-```
-Follow the on-screen prompt to enter your password and view the analysis.
+## Features
+- Simple command-line interface (CLI)  
+- Checks for length, character diversity, and common weak patterns  
+- Provides clear password strength classification  
+- Suggests improvements to make passwords more secure  
+
+---
+
+## Installation
+1. Make sure Python 3 is installed on your system.  
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/ghoussama282-creator/Simple-Password-Strength-Checker.git
